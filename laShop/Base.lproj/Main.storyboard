@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uw0-kK-lFc" customClass="RoundTableView" customModule="laShop" customModuleProvider="target">
-                                <rect key="frame" x="14" y="426" width="996" height="856"/>
+                                <rect key="frame" x="15" y="426" width="996" height="856"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -37,7 +37,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="100" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nVe-On-z9x">
-                                                    <rect key="frame" x="308" y="10" width="463" height="101"/>
+                                                    <rect key="frame" x="307" y="10" width="463" height="101"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -115,24 +115,6 @@
                                             <!--2017-07-09 15:58:33 +0000-->
                                         </date>
                                     </datePicker>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVc-xR-RAT" customClass="Roundbutton" customModule="laShop" customModuleProvider="target">
-                                        <rect key="frame" x="563" y="28" width="387" height="43"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="INTERFACE PRINCIPALE">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="2"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <segue destination="3SB-jS-uDd" kind="presentation" id="Qxc-v5-fyW"/>
-                                        </connections>
-                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="COURRIEL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="79A-I4-5Os">
                                         <rect key="frame" x="546" y="166" width="412" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -163,9 +145,27 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_lashop.png" translatesAutoresizingMaskIntoConstraints="NO" id="qoi-BH-wLf">
-                                        <rect key="frame" x="164" y="18" width="107" height="140"/>
+                                        <rect key="frame" x="179" y="30" width="92" height="120"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVc-xR-RAT" customClass="Roundbutton" customModule="laShop" customModuleProvider="target">
+                                        <rect key="frame" x="559" y="53" width="387" height="43"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="INTERFACE PRINCIPALE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="3SB-jS-uDd" kind="presentation" id="Qxc-v5-fyW"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </view>
                         </subviews>
@@ -178,7 +178,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="79.6875" y="140.0390625"/>
+            <point key="canvasLocation" x="79.6875" y="139.67789165446558"/>
         </scene>
         <!--Admin View Controller-->
         <scene sceneID="2LH-fD-YA9">
@@ -319,12 +319,28 @@
                             <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkH-LI-Nxs">
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T57-fF-ekF" customClass="Roundbutton" customModule="laShop" customModuleProvider="target">
-                                        <rect key="frame" x="313" y="626.5" width="398" height="113"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="398" id="DjS-Sp-F6J"/>
-                                            <constraint firstAttribute="height" constant="113" id="fG1-fg-3CD"/>
-                                        </constraints>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CW-vi-qbo" customClass="Roundbutton" customModule="laShop" customModuleProvider="target">
+                                        <rect key="frame" x="185" y="467" width="654" height="164"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="SECTION PRÊT">
+                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" id="miJ-es-KGf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T57-fF-ekF" customClass="Roundbutton" customModule="laShop" customModuleProvider="target">
+                                        <rect key="frame" x="185" y="714" width="654" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title="SECTION ADMIN">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -344,44 +360,11 @@
                                             <action selector="showPasswordView:" destination="3SB-jS-uDd" eventType="touchUpInside" id="1O7-FL-2XM"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2CW-vi-qbo" customClass="Roundbutton" customModule="laShop" customModuleProvider="target">
-                                        <rect key="frame" x="313" y="463.5" width="398" height="123"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="398" id="2lN-oh-Pev"/>
-                                            <constraint firstAttribute="height" constant="123" id="bWw-fq-cY6"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                        <state key="normal" title="SECTION PRÊT">
-                                            <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                <real key="value" value="5"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                <color key="value" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" id="miJ-es-KGf"/>
-                                        </connections>
-                                    </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_lashop.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rt9-4E-418">
-                                        <rect key="frame" x="407" y="19" width="211" height="274"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="274" id="L0h-Y4-tHF"/>
-                                            <constraint firstAttribute="width" constant="211" id="Y6Y-Bv-HWb"/>
-                                        </constraints>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_lashop.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rt9-4E-418">
+                                        <rect key="frame" x="385" y="49" width="254" height="336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="T57-fF-ekF" firstAttribute="centerX" secondItem="fkH-LI-Nxs" secondAttribute="centerX" id="5Mo-Mx-q8a"/>
-                                    <constraint firstItem="T57-fF-ekF" firstAttribute="top" secondItem="2CW-vi-qbo" secondAttribute="bottom" constant="40" id="YFr-na-Rs9"/>
-                                    <constraint firstItem="2CW-vi-qbo" firstAttribute="centerX" secondItem="T57-fF-ekF" secondAttribute="centerX" id="byF-6p-Uch"/>
-                                    <constraint firstItem="T57-fF-ekF" firstAttribute="centerY" secondItem="fkH-LI-Nxs" secondAttribute="centerY" id="nks-Hl-PVb"/>
-                                    <constraint firstItem="Rt9-4E-418" firstAttribute="top" secondItem="fkH-LI-Nxs" secondAttribute="top" constant="19" id="tTC-P2-q6w"/>
-                                    <constraint firstItem="T57-fF-ekF" firstAttribute="centerX" secondItem="Rt9-4E-418" secondAttribute="centerX" id="wgH-DF-udJ"/>
-                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BA0-iZ-4yj" customClass="RoundView" customModule="laShop" customModuleProvider="target">
                                 <rect key="frame" x="-450" y="438" width="400" height="550"/>
@@ -492,9 +475,9 @@
     </scenes>
     <resources>
         <image name="Blurred_slider_background.jpg" width="1920" height="1200"/>
-        <image name="logo_lashop.png" width="585" height="761"/>
+        <image name="logo_lashop.png" width="502" height="723"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="L4O-Rp-Wbo"/>
+        <segue reference="Qxc-v5-fyW"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -25,21 +25,21 @@
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_lashop.png" translatesAutoresizingMaskIntoConstraints="NO" id="kbb-54-74R">
-                                <rect key="frame" x="236" y="320" width="296" height="384"/>
+                                <rect key="frame" x="255" y="326" width="259" height="373"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="296" id="V6k-BK-6He"/>
-                                    <constraint firstAttribute="height" constant="384" id="tRY-uU-dda"/>
+                                    <constraint firstAttribute="height" constant="373" id="DDj-rK-Dss"/>
+                                    <constraint firstAttribute="width" constant="259" id="fTa-87-icG"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="kbb-54-74R" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="F92-Cq-leq"/>
                             <constraint firstItem="i8W-Pu-OKi" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Jem-Xn-zM4"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="i8W-Pu-OKi" secondAttribute="bottom" id="Mvd-uu-pZw"/>
-                            <constraint firstItem="kbb-54-74R" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dmo-7j-J4a"/>
+                            <constraint firstItem="kbb-54-74R" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="huQ-oW-Uio"/>
                             <constraint firstAttribute="trailing" secondItem="i8W-Pu-OKi" secondAttribute="trailing" id="sm1-wF-lgp"/>
                             <constraint firstItem="i8W-Pu-OKi" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="z3P-Qz-Vwy"/>
-                            <constraint firstItem="kbb-54-74R" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zPx-Wf-Wkt"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -50,6 +50,6 @@
     </scenes>
     <resources>
         <image name="Blurred_slider_background.jpg" width="1920" height="1200"/>
-        <image name="logo_lashop.png" width="585" height="761"/>
+        <image name="logo_lashop.png" width="502" height="723"/>
     </resources>
 </document>
